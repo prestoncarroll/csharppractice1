@@ -1,0 +1,12 @@
+/Users/prestoncarroll/Desktop/projects/csharppractice/bin/Debug/netcoreapp3.1/csharppractice.deps.json
+/Users/prestoncarroll/Desktop/projects/csharppractice/bin/Debug/netcoreapp3.1/csharppractice.runtimeconfig.json
+/Users/prestoncarroll/Desktop/projects/csharppractice/bin/Debug/netcoreapp3.1/csharppractice.runtimeconfig.dev.json
+/Users/prestoncarroll/Desktop/projects/csharppractice/bin/Debug/netcoreapp3.1/csharppractice.dll
+/Users/prestoncarroll/Desktop/projects/csharppractice/bin/Debug/netcoreapp3.1/csharppractice.pdb
+/Users/prestoncarroll/Desktop/projects/csharppractice/obj/Debug/netcoreapp3.1/csharppractice.csprojAssemblyReference.cache
+/Users/prestoncarroll/Desktop/projects/csharppractice/obj/Debug/netcoreapp3.1/csharppractice.csproj.CoreCompileInputs.cache
+/Users/prestoncarroll/Desktop/projects/csharppractice/obj/Debug/netcoreapp3.1/csharppractice.AssemblyInfoInputs.cache
+/Users/prestoncarroll/Desktop/projects/csharppractice/obj/Debug/netcoreapp3.1/csharppractice.AssemblyInfo.cs
+/Users/prestoncarroll/Desktop/projects/csharppractice/obj/Debug/netcoreapp3.1/csharppractice.dll
+/Users/prestoncarroll/Desktop/projects/csharppractice/obj/Debug/netcoreapp3.1/csharppractice.pdb
+/Users/prestoncarroll/Desktop/projects/csharppractice/obj/Debug/netcoreapp3.1/csharppractice.genruntimeconfig.cache
