@@ -6,23 +6,48 @@ namespace csharppractice {
     class Program {
         static void Main (string[] args) {
 
-            var john = new Person ();
-            john.FirstName = "john";
-            john.LastName = "Smitch";
-            john.Introduce ();
-            //------------------------------------------
-            var random = new Person ();
-            System.Console.WriteLine ("whats your first name");
-            random.FirstName = Console.ReadLine ();
+            var firstName = "Mosh";
+            var lastName = "iaja";
 
-            System.Console.WriteLine ("whats your last  name");
-            random.LastName = Console.ReadLine ();
-            random.Introduce ();
+            var fullName = firstName + " " + lastName;
 
-            Calculator calculator = new Calculator ();
-            var result = calculator.add (1, 2);
-            System.Console.WriteLine (result);
+            var myFullName = string.Format ("my name is {0} {1}", firstName, lastName);
+
+            var names = new string[3] { "eje", "john", "julia" };
+            var formattedNames = string.Join (", ", names);
+            System.Console.WriteLine (formattedNames);
+            System.Console.WriteLine (myFullName);
+
         }
+        //     var numbers = new int[3];
+        //     numbers[0] = 1;
+        //     numbers[1] = 5;
+        //     numbers[2] = 7;
+
+        //     System.Console.WriteLine (numbers[0]);
+        //     System.Console.WriteLine (numbers[1]);
+        //     System.Console.WriteLine (numbers[2]);
+        //     System.Console.WriteLine (numbers[2] + numbers[1]);
+
+        //     var flags = new bool[3];
+        //     flags[0] = true;
+
+        //     System.Console.WriteLine (flags[0]); //true
+        //     System.Console.WriteLine (flags[1]); //false
+        //     System.Console.WriteLine (flags[2]); //false
+
+        // }
+
+        //-----------------------------------------------------------
+        // var john = new Person();
+        // john.FirstName = "john";
+        // john.LastName = "Smitch";
+        // john.Introduce();
+
+        // Calculator calculator = new Calculator();
+        // var result = calculator.add(1, 2);
+        // System.Console.WriteLine(result);
+        // }
 
         //--------------------------------------------------
         // var a = 1;
