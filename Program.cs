@@ -3,22 +3,78 @@ using csharppractice.Math;
 
 namespace csharppractice {
 
+    // public enum ShippingMethod {
+    //     RegularAirMail = 1,
+    //     RegisteredAirMail = 2,
+    //     Express = 3
+    // }
+
+    // public class Person {
+    //     public int Age;
+    // }
+
     class Program {
         static void Main (string[] args) {
 
-            var firstName = "Mosh";
-            var lastName = "iaja";
+        //     var number = 1;
+        //     Increment (number);
+        //     System.Console.WriteLine (number); //1
 
-            var fullName = firstName + " " + lastName;
+        //     var person = new Person () { Age = 20 };
+        //     MakeOld (person);
+        //     System.Console.WriteLine (person.Age);
+        // }
 
-            var myFullName = string.Format ("my name is {0} {1}", firstName, lastName);
+        // public static void Increment (int number) {
+        //     number += 10;
+        // }
 
-            var names = new string[3] { "eje", "john", "julia" };
-            var formattedNames = string.Join (", ", names);
-            System.Console.WriteLine (formattedNames);
-            System.Console.WriteLine (myFullName);
+        // public static void MakeOld (Person person) {
+        //     person.Age += 10;
+        // }
 
-        }
+        //----------------------------------------------------
+        //    var a = 10;
+        //    var b = a;
+        //    b++;
+        //    System.Console.WriteLine(string.Format("a: {0}, b: {1}", a , b));
+
+        //     var array1 = new int[3] {1, 2, 3};
+        //     var array2 = array1;
+        //     array2[0] = 0;
+        //     System.Console.WriteLine(string.Format("array1[0]: {0}, array2[0]: {1}", array1[0], array2[0]));
+
+        // }
+
+        //--------------------------------------------------------------
+        //     var method = ShippingMethod.Express;
+        //     System.Console.WriteLine ((int) method);
+
+        //     var methodId = 3;
+        //     System.Console.WriteLine ((ShippingMethod) methodId);
+        //     //outputs Express
+
+        //     System.Console.WriteLine(method.ToString());
+
+        //     var methodName = "Express";
+
+        //    var ShippingMethod = (ShippingMethod) Enum.Parse(typeof(ShippingMethod), methodName);
+        // }
+
+        //---------------------------------------------------------
+        //     var firstName = "Mosh";
+        //     var lastName = "iaja";
+
+        //     var fullName = firstName + " " + lastName;
+
+        //     var myFullName = string.Format ("my name is {0} {1}", firstName, lastName);
+
+        //     var names = new string[3] { "eje", "john", "julia" };
+        //     var formattedNames = string.Join (", ", names);
+        //     System.Console.WriteLine (formattedNames);
+        //     System.Console.WriteLine (myFullName);
+
+        // }
         //     var numbers = new int[3];
         //     numbers[0] = 1;
         //     numbers[1] = 5;
