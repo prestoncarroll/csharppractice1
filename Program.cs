@@ -21,6 +21,14 @@ namespace csharppractice {
             john.LastName = "Smitch";
             john.Introduce ();
 
+            var random = new Person ();
+            System.Console.WriteLine ("whats your first name");
+            random.FirstName = Console.ReadLine ();
+
+            System.Console.WriteLine ("whats your last  name");
+            random.LastName = Console.ReadLine ();
+            random.Introduce ();
+
         }
 
         //--------------------------------------------------
