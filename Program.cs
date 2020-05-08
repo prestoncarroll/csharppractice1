@@ -1,17 +1,7 @@
 ﻿using System;
+using csharppractice.Math;
 
 namespace csharppractice {
-
-    public class Person {
-
-        public string FirstName;
-        public string LastName;
-
-        public void Introduce () {
-            System.Console.WriteLine ("my name is " + FirstName + " " + LastName);
-
-        }
-    }
 
     class Program {
         static void Main (string[] args) {
@@ -20,7 +10,7 @@ namespace csharppractice {
             john.FirstName = "john";
             john.LastName = "Smitch";
             john.Introduce ();
-
+            //------------------------------------------
             var random = new Person ();
             System.Console.WriteLine ("whats your first name");
             random.FirstName = Console.ReadLine ();
@@ -29,6 +19,9 @@ namespace csharppractice {
             random.LastName = Console.ReadLine ();
             random.Introduce ();
 
+            Calculator calculator = new Calculator ();
+            var result = calculator.add (1, 2);
+            System.Console.WriteLine (result);
         }
 
         //--------------------------------------------------
